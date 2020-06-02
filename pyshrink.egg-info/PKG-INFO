@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pyshrink
+Version: 0.0.1
+Summary: Compression algorithms implemented in pure Python.
+Home-page: https://github.com/rahuldshetty/pyshrink
+Author: Rahul D Shetty
+Author-email: 35rahuldshetty@gmail.com
+License: MIT license
+Description: UNKNOWN
+Keywords: pyshrink
+Platform: UNKNOWN
+Requires-Python: >=3.5

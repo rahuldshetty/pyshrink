@@ -1,0 +1,10 @@
+setup.py
+pyshrink/__init__.py
+pyshrink/compressor.py
+pyshrink.egg-info/PKG-INFO
+pyshrink.egg-info/SOURCES.txt
+pyshrink.egg-info/dependency_links.txt
+pyshrink.egg-info/not-zip-safe
+pyshrink.egg-info/top_level.txt
+pyshrink/huffman/__init__.py
+pyshrink/huffman/huffman.py
