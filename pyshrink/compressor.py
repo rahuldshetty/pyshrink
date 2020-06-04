@@ -29,6 +29,10 @@ class Compressor:
     def _to_Bytes(data):
         return int(data, 2).to_bytes((len(data) + 7) // 8, byteorder='big')
 
+    @staticmethod
+    def _from_Bytes(data):
+        return bin(int.from_bytes(data, byteorder='big'))[2:]
+
     def compare(self):
         '''
         Parameters:

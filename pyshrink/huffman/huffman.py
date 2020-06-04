@@ -112,7 +112,7 @@ class Huffman(Compressor):
         tgt = open(save_path, 'wb')
         
         data = src.read()
-        data = bin(int.from_bytes(data, byteorder='big'))[2:]
+        data = self._from_Bytes(data)
 
         dec = huffman_decode(data, self.hash_table)
         tgt.write(dec)
